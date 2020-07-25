@@ -8,7 +8,7 @@ class Shoe
     @brand = brand
     BRANDS.each do |x|
       if x == brand
-        break
+        return
       else
         BRANDS << brand
       end
